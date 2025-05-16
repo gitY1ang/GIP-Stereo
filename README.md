@@ -28,6 +28,11 @@ conda install pytorch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 pytorch-cuda=
 * [Sintel Stereo](http://sintel.is.tue.mpg.de/stereo)
 * [HR-VS](https://drive.google.com/file/d/1SgEIrH_IQTKJOToUwR1rx4-237sThUqX/view)
 
+## Training 
+### Training on Sceneflow:
+~~~
+./train.sh
+~~~
 
 
 
