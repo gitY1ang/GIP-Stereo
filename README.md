@@ -4,6 +4,7 @@
 Yang Zhao<sup>1</sup>, Ziyang Chen<sup>1</sup>, Junling He<sup>1</sup>, Wenting Li, Yao Xiao, Chunwei Tian, Yongjun Zhang*
 
 
+ 
 ~~~
 The official implementation of "GIP-Stereo：Geometry-Aware Information Propagation Network for Stereo Matching".
 This paper is under review processing... We will release all codes and results after finishing the review.
@@ -34,7 +35,14 @@ conda install pytorch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 pytorch-cuda=
 ./train.sh
 ~~~
 
+## Submission
 
+For submission to the KITTI ETH3D MIDDLEBURY benchmark, run
+~~~
+python kitti_disp.py
+python eth_disp.py
+python middlebury_disp.py
+~~~
 
 ## Acknowledgements
 <ul>
